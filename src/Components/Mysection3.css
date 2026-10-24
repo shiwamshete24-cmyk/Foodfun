@@ -1,0 +1,28 @@
+.section3-bg{
+    background: linear-gradient(rgba(0,0,0,0.8)),url('src/assets/testimonial-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.roboto3-section3{
+    font-family: "Roboto Serif", serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+.mystyle1{
+    background-color: white;
+    transition: background-color 3s transform 3s;
+
+}
+.mystyle1:hover{
+    background-color: rgb(204, 164, 6);
+}
+
+img:hover{
+    transform: scale(1.05);
+
+}

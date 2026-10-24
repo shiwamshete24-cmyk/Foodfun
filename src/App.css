@@ -1,0 +1,37 @@
+.roboto-serif4 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.roboto-serif5{
+    font-family: "Roboto Serif", serif;
+    font-weight: 200;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.roboto-serif6{
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.margin1{
+    margin: 100px 0px;
+}
+.margin7{
+    margin-bottom:100px;
+}
+
+@media only screen and (min-width:768px) {
+}
+    
+
+@media only screen and (min-width:992px) {
+    .Delicious-card{
+    background-image: url('src/assets/food-bg.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+}
+    
+}
+

@@ -1,0 +1,58 @@
+.section1-bg{
+      background-image: url('src/assets/reservation-bg.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.section1-height{
+    height: 80vh;
+}
+
+.roboto-section1{
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 42px;
+}
+.myroboto-section1{
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.roboto2-section1{
+    font-family: "Roboto Serif", serif;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: italic;
+
+}
+.roboto3-section1{
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+
+
+
+
+.btn:hover{
+    background-color: transparent;
+    color: rgb(255, 174, 0);
+
+}
+@media only screen and (min-width:768px) {
+    .section1-height{
+    height: 65vh;
+}
+}
+    
+
+@media only screen and (min-width:992px) {
+    .section1-height{
+    height: 60vh;
+}
+  
+}
+    
+

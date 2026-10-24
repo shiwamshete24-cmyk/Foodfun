@@ -1,0 +1,90 @@
+.section-footer-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.7)), url('src/assets/table-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section1-height1 {
+    height: auto;
+}
+
+.section1-height2 {
+    height: 100vh;
+}
+
+.section-footer-bg-color {
+    background-color: #131230;
+}
+
+.footer-font {
+    font-family: "Playfair Display", serif;
+    text-transform: capitalize;
+    font-size: 22px !important;
+    font-weight: 700;
+}
+
+.roboto-serif8 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 200;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.mybg-dark {
+    background-color: #0d0d27;
+}
+
+.copyright-height {
+    height: 20vh;
+}
+
+.text-align {
+    text-align: start;
+}
+
+
+
+
+@media only screen and (min-width:768px) {
+    .section1-height1 {
+        height: 70vh;
+    }
+
+    .section1-height2 {
+        height: 70vh;
+    }
+
+    .copyright-height {
+        height: 13vh;
+    }
+
+    .text-align {
+        text-align: center;
+    }
+
+    .copyright-height {
+        height: 1vh;
+    }
+}
+
+
+@media only screen and (min-width:992px) {
+    .section1-height1 {
+        height: 70vh;
+    }
+
+    .section1-height2 {
+        height: 70vh;
+    }
+
+    .copyright-height {
+        height: 1vh;
+    }
+
+    .text-align {
+        text-align: center;
+    }
+
+   
+}
